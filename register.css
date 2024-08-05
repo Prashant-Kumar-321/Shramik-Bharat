@@ -7,11 +7,6 @@
     list-style: none;
 }
 
-:root{
-    --hide: -10000px; 
-    --show: 0px; 
-}
-
 body{
     font-family: "Roboto", sans-serif;
     font-size: 1.23rem; 
@@ -78,7 +73,7 @@ main {
     justify-content: center; 
     position: absolute; 
     font-size: 3rem; 
-    left: -10000px;  
+    left: 0px;  
     top:0px; 
 
 }
