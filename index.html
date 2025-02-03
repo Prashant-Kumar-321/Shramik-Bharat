@@ -1,405 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="favicon.ico"
+			type="image/x-icon" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
 
-    <link rel="stylesheet" href="./style.css" />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
 
-    <title>Shramik Bharat</title>
-  </head>
-  <body>
-    <!-- ========== Navbar Start Section ========== -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
 
-    <header class="section-navbar">
-      <div class="head container">
-        <div class="web-brand">
-          <a href="/">
-            <img
-              src="./images/018-day-and-night.png"
-              alt="brand logo"
-              class="brand-logo"
-            />
-          </a>
-          <p class="brand-name">Shramik Bharat</p>
-        </div>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet" />
 
-        <navbar class="navbar">
-          <ul>
-            <li class="nav-link"><a href="/" class="nav-link">home</a></li>
-            <li class="nav-link" id="services">
-              <div class="menu">
-                <a href="#" class="nav-link"
-                  >services <i class="fa-solid fa-chevron-down"></i
-                ></a>
-                <ul class="dropdown">
-                  <li class="services-menu"><a href="#">Labourer</a></li>
-                  <li class="services-menu"><a href="#">Plumber</a></li>
-                  <li class="services-menu"><a href="#">Electrician</a></li>
-                  <li class="services-menu"><a href="#">Welder</a></li>
-                  <li class="services-menu"><a href="#">Painter</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-link" id="resources">
-              <div class="menu">
-                <a href="#" class="nav-link"
-                  >resources <i class="fa-solid fa-chevron-down"></i
-                ></a>
-                <ul class="dropdown">
-                  <li class="resources-menu"><a href="#">Why Choose Us</a></li>
-                  <li class="resources-menu">
-                    <a href="#">How To Get Started</a>
-                  </li>
-                  <li class="resources-menu"><a href="#"></a></li>
-                  <li class="resources-menu"><a href="#"></a></li>
-                  <li class="resources-menu"><a href="#"></a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-link">
-              <a href="#blogs" class="nav-link">blogs</a>
-            </li>
-            <li class="nav-link">
-              <a href="contact.html" class="nav-link">contact us</a>
-            </li>
-          </ul>
-        </navbar>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
 
-        <div class="account">
-          <button class="login-btn">login</button>
-          <button class="register-btn">register</button>
-        </div>
-      </div>
-    </header>
+		<!-- Standard favicon -->
+		<link
+			rel="icon"
+			href="./assets/favicons/favicon-32x32.png"
+			sizes="32x32"
+			type="image/png" />
 
-    <!-- ========== Navbar End Section ========== -->
+		<!-- High-resolution favicon for Retina displays -->
+		<link
+			rel="icon"
+			href="./assets/favicons/favicon-64x64.png"
+			sizes="64x64"
+			type="image/png" />
 
-    <!-- ========== Start Hero Section ========== -->
+		<!-- Apple Touch Icon for iOS devices -->
+		<link
+			rel="apple-touch-icon"
+			href="./assets/favicons/apple-touch-icon.png" />
 
-    <main>
-      <section class="section-hero">
-        <div class="container grid grid-two--rows">
-          <div class="section-hero--content grid grid-two--cols">
-            <div class="hero-text">
-              <p class="hero-subheading">Lorem ipsum dolor sit.</p>
-              <h1 class="hero-heading">Get Your Job Done On Demand</h1>
-              <p class="hero-para">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Provident assumenda excepturi cupiditate id libero quam hic
-                minima obcaecati, quibusdam rerum.
-              </p>
-            </div>
+		<!-- Android home screen icon -->
+		<link
+			rel="icon"
+			href="./assets/favicons/android-chrome-192x192.png"
+			sizes="192x192"
+			type="image/png" />
 
-            <div class="hero-img"></div>
-          </div>
+		<link
+			rel="icon"
+			href="./assets/favicons/android-chrome-512x512.png"
+			sizes="192x192"
+			type="image/png" />
 
-          <div class="searchbar">
-            <div class="search-boxes">
-              <div class="box">
-                <p class="categroy-text">
-                  <i class="fa-solid fa-magnifying-glass box-icon"></i> &nbsp;
-                  Services
-                </p>
-              </div>
+		<link
+			rel="stylesheet"
+			href="./src/css/styles.css" />
 
-              <div class="box">
-                <p class="categroy-text">
-                  <i class="fa-solid fa-magnifying-glass box-icon"></i> &nbsp;
-                  Location
-                </p>
-              </div>
+		<title>Shramik Bharat</title>
+	</head>
 
-              <div class="box">
-                <p class="categroy-text">
-                  <i class="fa-solid fa-magnifying-glass box-icon"></i> &nbsp;
-                  Price Filter
-                </p>
-              </div>
+	<body>
+		<!-- ========== Navbar Start Section ========== -->
 
-              <div class="box">
-                <p class="categroy-text">
-                  <button class="search-btn">
-                    <i class="fa-solid fa-magnifying-glass box-icon"></i> &nbsp;
-                    Search
-                  </button>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+		<header class="section-navbar container">
+			<div class="web-brand">
+				<i class="hamburger fa-solid fa-burger"></i>
+				<a href="/">
+					<img
+						src="./assets/images/logo.svg"
+						alt="brand logo"
+						class="brand-logo" />
+				</a>
+			</div>
 
-        <section class="analytics">
-          <p class="analytics-heading">Trusted By Thousands All Over India</p>
+			<div class="navbar">
+				<navbar>
+					<ul>
+						<li class="nav-link">
+							<a
+								href="/"
+								class="nav-link"
+								>home</a
+							>
+						</li>
+						<li
+							class="nav-link"
+							id="services">
+							<div class="menu">
+								<a
+									href="#services"
+									class="nav-link"
+									>services <i class="fa-solid fa-chevron-down"></i
+								></a>
+								<ul class="dropdown">
+									<li class="services-menu"><a href="#">Labourer</a></li>
+									<li class="services-menu"><a href="#">Plumber</a></li>
+									<li class="services-menu"><a href="#">Electrician</a></li>
+									<li class="services-menu"><a href="#">Welder</a></li>
+									<li class="services-menu"><a href="#">Painter</a></li>
+								</ul>
+							</div>
+						</li>
+						<li
+							class="nav-link"
+							id="resources">
+							<div class="menu">
+								<a
+									href="#resources"
+									class="nav-link"
+									>resources <i class="fa-solid fa-chevron-down"></i
+								></a>
+								<ul class="dropdown">
+									<li class="resources-menu">
+										<a href="#why">Why Us ?</a>
+									</li>
+									<li class="resources-menu">
+										<a href="#">Get Started</a>
+									</li>
+									<li class="resources-menu"><a href="#"></a></li>
+									<li class="resources-menu"><a href="#"></a></li>
+									<li class="resources-menu"><a href="#"></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-link">
+							<a
+								href="#blogs"
+								class="nav-link"
+								>blogs</a
+							>
+						</li>
+						<li class="nav-link">
+							<a
+								href="/contact.html"
+								class="nav-link"
+								>contact us</a
+							>
+						</li>
+					</ul>
+				</navbar>
+			</div>
 
-          <div class="analytics-boxes grid grid-four--cols">
-            <div class="box">
-              <h1>200</h1>
-              <p>Providers</p>
-            </div>
+			<div class="account">
+				<a
+					class="login-btn"
+					href="/login.html"
+					>login</a
+				>
+				<a
+					class="register-btn"
+					href="/register.html"
+					>register</a
+				>
+			</div>
+		</header>
 
-            <div class="box">
-              <h1>200</h1>
-              <p>Providers</p>
-            </div>
+		<!-- ========== Navbar End Section ========== -->
 
-            <div class="box">
-              <h1>200</h1>
-              <p>Providers</p>
-            </div>
+		<!-- ========== Start Hero Section ========== -->
 
-            <div class="box">
-              <h1>200</h1>
-              <p>Providers</p>
-            </div>
-          </div>
-        </section>
-      </section>
-    </main>
+		<main>
+			<section class="section-hero">
+				<div class="container grid grid-two--rows">
+					<div class="section-hero--content grid grid-two--cols">
+						<div class="hero-text">
+							<h1 class="hero-heading">
+								Connecting <span>workers</span>, Creating opportunities.
+							</h1>
+							<p class="hero-para">
+								<span>Shramik Bharat</span> connects skilled professionals with
+								premium job opportunities transforming hiring by connecting top
+								talent with leading employers, fostering career advancement.
+							</p>
+						</div>
 
-    <!-- ========== End Hero Section ========== -->
+						<div class="hero-img">
+							<img
+								class="hero-image"
+								src="./assets/images/worker.png"
+								alt="worker" />
 
-    <!-- ========== Start How It Works Section ========== -->
+							<img
+								class="hero-map"
+								src="./assets/images/map.png"
+								alt="worker" />
+						</div>
+					</div>
 
-    <section class="section-how-it-works">
-      <div class="container">
-        <div class="hitw-heading">
-          <h2 class="hitw-title">How It Works?</h2>
-        </div>
+					<div class="searchbar">
+						<div class="search-boxes">
+							<div class="box">
+								<button class="categroy-text">
+									Services
+									<i class="fa-solid fa-screwdriver-wrench"></i>
+								</button>
+							</div>
 
-        <div class="container grid grid-two--cols">
-          <div class="hitw-content grid grid-three--rows">
-            <div class="box grid grid-two--cols">
-              <div class="icon"><i class="fa-solid fa-user"></i></div>
-              <div class="text">
-                <p>Step 1</p>
-                <h3 class="text-title">Create an Account</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci, delectus.
-                </p>
-              </div>
-            </div>
+							<div class="box">
+								<button class="categroy-text">
+									Location
+									<i class="fa-solid fa-earth-asia"></i>
+								</button>
+							</div>
 
-            <div class="box grid grid-two--cols">
-              <div class="icon"><i class="fa-solid fa-user"></i></div>
-              <div class="text">
-                <p>Step 1</p>
-                <h3 class="text-title">Create an Account</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci, delectus.
-                </p>
-              </div>
-            </div>
+							<div class="box">
+								<button class="categroy-text">
+									Price Filter
+									<i class="fa-solid fa-filter-circle-dollar"></i>
+								</button>
+							</div>
 
-            <div class="box grid grid-two--cols">
-              <div class="icon"><i class="fa-solid fa-user"></i></div>
-              <div class="text">
-                <p>Step 1</p>
-                <h3 class="text-title">Create an Account</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci, delectus.
-                </p>
-              </div>
-            </div>
-          </div>
+							<div class="box">
+								<p class="categroy-text">
+									<button class="search-btn">
+										<i class="fa-solid fa-magnifying-glass box-icon"></i>
+										Search
+									</button>
+								</p>
+							</div>
+						</div>
+					</div>
 
-          <div class="hitw-img">asdfsd</div>
-        </div>
-      </div>
-    </section>
+					<div class="page-down">
+						<i class="fa-solid fa-circle-arrow-down"></i>
+					</div>
 
-    <!-- ========== End How It Works Section ========== -->
+					<div class="analytics">
+						<p class="analytics-heading">Trusted By Thousands All Over India</p>
 
-    <!-- ========== Start Blogs Section ========== -->
+						<div class="analytics-boxes grid grid-four--cols">
+							<div class="box">
+								<p class="analytics-value">500+</p>
+								<p>Workers</p>
+							</div>
 
-    <section class="section-blogs">
-      <div class="container">
-        <div class="blogs-title">
-          <h2>Explore Our Blogs</h2>
-        </div>
+							<div class="box">
+								<p class="analytics-value">300+</p>
+								<p>Employers</p>
+							</div>
 
-        <div class="container grid grid-four--cols cards">
-          <div class="blog-card">
-            <div class="card-img">
-              <img
-                src="https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-              />
-            </div>
-            <p><i class="fa-regular fa-calendar"></i> &nbsp; Sept 22 2024</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
+							<div class="box">
+								<p class="analytics-value">1000+</p>
+								<p>Job Opportunities</p>
+							</div>
 
-          <div class="blog-card">
-            <div class="card-img">
-              <img
-                src="https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-              />
-            </div>
-            <p><i class="fa-regular fa-calendar"></i> &nbsp; Sept 22 2024</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
+							<div class="box">
+								<p class="analytics-value">150+</p>
+								<p>Services Delivered</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-          <div class="blog-card">
-            <div class="card-img">
-              <img
-                src="https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-              />
-            </div>
-            <p><i class="fa-regular fa-calendar"></i> &nbsp; Sept 22 2024</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
+		<!-- ========== End Hero Section ========== -->
 
-          <div class="blog-card">
-            <div class="card-img">
-              <img
-                src="https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-              />
-            </div>
-            <p><i class="fa-regular fa-calendar"></i> &nbsp; Sept 22 2024</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+		<!-- ========== Start Get Started Section ========== -->
 
-    <!-- ========== End Blogs Section ========== -->
+		<section class="section-get-started">
+			<div class="container">
+				<div class="get-started-heading">
+					<h2 class="get-started-title">
+						Get Started <i class="fa-solid fa-person-hiking"></i>
+					</h2>
+				</div>
 
-    <!-- ========== Start Why Choose Us Section ========== -->
+				<div class="get-started-content grid grid-two--cols">
+					<div class="get-started-steps grid grid-three--rows">
+						<div class="box grid grid-two--cols">
+							<i class="fa-solid fa-user-check"></i>
+							<div class="text">
+								<p>Step 1 <i class="fa-solid fa-shoe-prints"></i></p>
+								<h3 class="text-title">Sign Up & Get Started</h3>
+								<p>
+									Sign up quickly to get started and unlock all the platform
+									features.
+								</p>
+							</div>
+						</div>
 
-    <section class="section-why-choose-us">
-      <div class="container">
-        <div class="wcus-title">
-          <h2>Why Choose Us</h2>
-        </div>
+						<div class="box grid grid-two--cols">
+							<i class="fa-solid fa-list-ol"></i>
+							<div class="text">
+								<p>Step 2 <i class="fa-solid fa-shoe-prints"></i></p>
+								<h3 class="text-title">List Your Services</h3>
+								<p>
+									Showcase your services by adding detailed listings that
+									attract customers.
+								</p>
+							</div>
+						</div>
 
-        <div class="container grid grid-three--cols">
-          <div class="wcus-card">
-            <i class="fa-solid fa-handshake wcus-card-icon"></i>
-            <h3>Meet New Customers</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-          </div>
+						<div class="box grid grid-two--cols">
+							<!-- c4e0eb d6eaee -->
+							<i class="fa-solid fa-users-gear"></i>
+							<div class="text">
+								<p>Step 3 <i class="fa-solid fa-shoe-prints"></i></p>
+								<h3 class="text-title">Boost Your Visibility</h3>
+								<p>
+									Gain visibility and connect with more potential clients
+									through our network.
+								</p>
+							</div>
+						</div>
+					</div>
 
-          <div class="wcus-card">
-            <i class="fa-solid fa-handshake wcus-card-icon"></i>
-            <h3>Meet New Customers</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-          </div>
+					<!-- <a href="https://www.vecteezy.com/free-vector/connect-people"> -->
+					<img
+						class="get-started-img"
+						src="./assets/images/network.jpg"
+						alt="Connect People Vectors by Vecteezy" />
+					<!-- </a> -->
+				</div>
+			</div>
+		</section>
 
-          <div class="wcus-card">
-            <i class="fa-solid fa-handshake wcus-card-icon"></i>
-            <h3>Meet New Customers</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+		<!-- ========== End Get Started Section ========== -->
 
-    <!-- ========== End Why Choose Us Section ========== -->
+		<div class="page-scroll container">
+			<i class="fa-solid fa-circle-arrow-down"></i>
+		</div>
 
-    <!-- ========== What People Are Saying Start Section ========== -->
+		<!-- ========== Start Blogs Section ========== -->
 
-    <section class="section-what-pesay">
-      <div class="container">
-        <div class="grid grid-three--cols">
-          <div class="card">
-            <h3>What people are saying</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,
-              corrupti. At molestias expedita dolor ratione?
-            </p>
-          </div>
+		<section class="section-blogs">
+			<div class="container">
+				<div class="blogs-heading">
+					<h2 class="blogs-title">
+						Explore Our Blogs<i class="fa-regular fa-newspaper"></i>
+					</h2>
+				</div>
 
-          <div class="card">
-            <h3><i class="fa-solid fa-user-astronaut"></i> Worst Website</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,
-              corrupti. At molestias expedita dolor ratione orem ipsum dolor sit
-              amet consectetur adipisicing elit. Quaerat, harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, labore. ?
-            </p>
-          </div>
+				<div class="blog-cards grid grid-five--cols">
+					<div class="blog-card">
+						<div class="card-img">
+							<img
+								src="./assets/images/job-opportunities.jpg"
+								alt="" />
+						</div>
+						<div class="card-text">
+							<p><i class="fa-regular fa-calendar"></i> Mar 10 2025</p>
+							<p>
+								How Our Platform Helps Workers Find Reliable Work Opportunities.
+							</p>
+						</div>
+					</div>
 
-          <div class="card">
-            <h3><i class="fa-solid fa-user-astronaut"></i> Worst Experience</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,
-              corrupti. At molestias expedita dolor ratione orem ipsum, dolor
-              sit amet consectetur adipisicing elit. Asperiores, eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, quas.?
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+					<div class="blog-card">
+						<div class="card-img">
+							<img
+								src="./assets/images/skilled-workers.jpg"
+								alt="" />
+						</div>
+						<div class="card-text">
+							<p><i class="fa-regular fa-calendar"></i> Mar 3 2025</p>
+							<p>Top Skills Every Laborer Should Showcase to Land More Jobs.</p>
+						</div>
+					</div>
 
-    <!-- ========== What People Are Saying End Section ========== -->
+					<div class="blog-card">
+						<div class="card-img">
+							<img
+								src="./assets/images/hiring.jpg"
+								alt="" />
+						</div>
+						<div class="card-text">
+							<p><i class="fa-regular fa-calendar"></i> Feb 24 2025</p>
+							<p>
+								A Beginner’s Guide to Using Our Platform for Service Providers.
+							</p>
+						</div>
+					</div>
 
-    <!-- ========== Start Footer Section ========== -->
+					<div class="blog-card">
+						<div class="card-img">
+							<img
+								src="./assets/images/freelancing.jpeg"
+								alt="" />
+						</div>
+						<div class="card-text">
+							<p><i class="fa-regular fa-calendar"></i> Feb 17 2025</p>
+							<p>
+								Why Hiring Freelancers and Laborers through Our Platform
+								Benefits You.
+							</p>
+						</div>
+					</div>
 
-    <footer class="section-footer">
-      <div class="container">
-        <div class="grid grid-four--cols">
-          <div class="section">
-            <div class="web-brand">
-              <a href="/">
-                <img
-                  src="./images/018-day-and-night.png"
-                  alt="brand logo"
-                  class="brand-logo"
-                />
-              </a>
-              <p class="brand-name">Shramik Bharat</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, unde.</p>
-              <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
-            </div>
-          </div>
+					<div class="blog-card">
+						<div class="card-img">
+							<img
+								src="./assets/images/growth.jpg"
+								alt="" />
+						</div>
+						<div class="card-text">
+							<p>
+								<i class="fa-regular fa-calendar"></i> &nbsp; February 10, 2025
+							</p>
+							<p>
+								Top Tips for Workers to Build a Strong Reputation on Our
+								Platform.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-          <div class="section-quicklinks">
-            <h3>Quick Links</h3>
-            <a href="">Home</a>
-            <a href="">Contact Us</a>
-            <a href="">Blogs</a>
-            <a href="">How It Works?</a>
-            <a href="">Why Choose Us</a>
-          </div>
+		<!-- ========== End Blogs Section ========== -->
 
-          <div class="section">
-            <h3>Contact Us</h3>
-            <p>12345 Little Lonsdale St, Melbourne <br> Phone: (123) 123-456 <br> E-Mail: office@example.com</p>
-          </div>
+		<!-- ========== Start Why Us Section ========== -->
 
-          <div class="section">
-            <h3>Newsletter <i class="fa-solid fa-envelopes-bulk"></i></h3>
-            <p>Be the first to know about new <br>arrivals!</p>
-            <input type="email" placeholder="Your Email">
-          </div>
-        </div>
-        <br>
-        <br>
-        <hr>
-        <br>
-        <p>&copy; All Rights Reserved | Designed And Coded By Team Wave-T</p>
-        <br>
-      </div>
-    </footer>
-    
-    <!-- ========== End Footer Section ========== -->
-    
+		<section class="section-why-us">
+			<div class="container">
+				<div class="wus-heading">
+					<h2 class="wus-title">Why Us ? <i class="fa-solid fa-award"></i></h2>
+				</div>
 
-    <script type="module" src="./main.js"></script>
-  </body>
+				<div class="wus-content">
+					<div class="wus-card">
+						<i class="fa-solid fa-handshake-simple"></i>
+						<h3>Meet New Customers</h3>
+						<p>
+							Our platform connects skilled workers with customers in need of
+							your services. Find new clients in your area and build lasting
+							relationships with ease.
+						</p>
+					</div>
+
+					<div class="wus-card">
+						<i class="fa-solid fa-chart-line"></i>
+						<h3>Grow Your Revenue</h3>
+						<p>
+							Take on multiple jobs and set your own rates to increase your
+							earnings. More work opportunities mean more chances to boost your
+							income.
+						</p>
+					</div>
+
+					<div class="wus-card">
+						<i class="fa-solid fa-user-check"></i>
+						<h3>Build Online Reputation</h3>
+						<p>
+							Earn positive reviews as you complete jobs, building trust with
+							customers. A strong reputation leads to more work and repeat
+							business.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ========== End Why Us Section ========== -->
+
+		<div class="page-scroll container">
+			<i class="fa-solid fa-circle-arrow-down"></i>
+		</div>
+
+		<!-- ========== What People Are Saying Start Section ========== -->
+
+		<section class="section-what-pesay">
+			<div class="container">
+				<div class="what-pesay-content grid grid-three--cols">
+					<div class="main-card">
+						<h3 class="what-pesay-title">
+							What People Say<i class="fa-solid fa-comments"></i>
+						</h3>
+						<p>
+							Our platform has helped countless workers find reliable
+							opportunities and build strong reputations. Hear directly from our
+							satisfied users about their experiences with us.
+						</p>
+					</div>
+
+					<div class="card">
+						<h3>
+							<i class="fa-solid fa-quote-left"></i>Game Changer<i
+								class="fa-solid fa-quote-right"></i>
+						</h3>
+						<p>
+							"I've been using this platform for several months now, and it's
+							made a huge difference in my work life. I’ve found consistent and
+							reliable job opportunities, which have helped me build my skills
+							and reputation. The platform is easy to use, and I can always find
+							new clients in my area. It’s definitely been a game-changer for
+							me!"
+						</p>
+						<div class="user">
+							<img
+								src="./assets/images/john-doe.jpg"
+								alt="user1" />
+							<p>John D., Construction Worker</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<h3>
+							<i class="fa-solid fa-quote-left"></i>User Friendly<i
+								class="fa-solid fa-quote-right"></i>
+						</h3>
+						<p>
+							"As a house cleaner, it’s often hard to find trustworthy clients,
+							but this platform has completely changed that for me. The job
+							listings are varied, and I’ve been able to pick up consistent
+							work. I love how user-friendly the platform is, and the best part
+							is that it’s given me a way to build a solid reputation with great
+							reviews. I’m grateful for the opportunities this platform has
+							given me!"
+						</p>
+						<div class="user">
+							<img
+								src="./assets/images/sarah-jane.jpg"
+								alt="user1" />
+							<p>Sarah M., House Cleaner</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ========== What People Are Saying End Section ========== -->
+
+		<!-- ========== Start Footer Section ========== -->
+
+		<footer class="section-footer">
+			<div class="container">
+				<div class="footer-content grid grid-four--cols">
+					<div class="brands-content">
+						<div class="web-brand">
+							<a href="/">
+								<img
+									src="./assets/images/logo.svg"
+									alt="brand logo"
+									class="brand-logo" />
+							</a>
+							<p>
+								Connecting <br /><span>workers</span>, Creating
+								<br />opportunities.
+							</p>
+							<img
+								src="https://i.postimg.cc/Nj9dgJ98/cards.png"
+								alt="cards" />
+						</div>
+					</div>
+
+					<div class="section-quicklinks">
+						<h3>Quick Links<i class="fa-solid fa-paperclip"></i></h3>
+						<a href="">Home</a>
+						<a href="">Contact Us</a>
+						<a href="">Blogs</a>
+						<a href="">How It Works?</a>
+						<a href="">Why Choose Us</a>
+					</div>
+
+					<div class="section-contactus">
+						<h3>Contact Us<i class="fa-solid fa-phone"></i></h3>
+						<p>
+							12345 Little Lonsdale St, Melbourne <br />
+							Phone: (123) 123-456 <br />
+							E-Mail: office@example.com
+						</p>
+					</div>
+
+					<div class="section-newsletter">
+						<h3>Newsletter <i class="fa-solid fa-paper-plane"></i></h3>
+						<p>Be the first to know about new <br />arrivals!</p>
+						<div class="subscribe">
+						<input
+							type="email"
+							placeholder="Your Email" />
+							<button class="subscribe"><i class="fa-solid fa-bell"></i>Subscribe</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-attribution container">
+				<p>&copy; 2025 All Rights Reserved | Design And Code By Team Wave-T</p>
+			</div>
+		</footer>
+
+		<!-- ========== End Footer Section ========== -->
+
+		<script
+			type="module"
+			src="./src/js/main.js"></script>
+	</body>
 </html>
